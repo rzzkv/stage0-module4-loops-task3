@@ -8,6 +8,7 @@ public class DigitsSum {
             char digitChar = numberStr.charAt(i);
             int digit = Character.getNumericValue(digitChar);
             sum += digit;
+
         }
         System.out.println(sum);
     }
